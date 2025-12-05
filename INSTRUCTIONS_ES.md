@@ -16,14 +16,14 @@ Antes de comenzar, asegúrate de que el entorno donde se ejecutarán los tests (
 Esta opción descarga la suite directamente en la carpeta destino, lista para ser usada y modificada. No se añade como dependencia en `composer.json` para evitar que se sobrescriban tus tests al actualizar.
 
 ```bash
-composer create-project orangecat/magento2-playwright-suite dev/tests/playwright
+composer create-project orangecat/magento2-playwright-suite dev/tests/playwright --no-install
 ```
 
-*Nota: Si el paquete está en un repositorio privado, añade `--repository-url="..."` al comando.*
+
 
 ### Opción B: Manual
 
-Copia todo el contenido de esta carpeta (`playwright`) a la ruta `dev/tests/playwright` en tu proyecto Magento 2.
+Copia todo el contenido de esta carpeta a la ruta `dev/tests/playwright` en tu proyecto Magento 2.
 
 La estructura final debería verse así:
 

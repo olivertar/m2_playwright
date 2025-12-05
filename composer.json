@@ -3,7 +3,7 @@
     "description": "Base Playwright ETE test suite for Magento 2",
     "type": "project",
     "license": "OSL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Oliverio Gombert",
